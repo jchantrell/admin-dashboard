@@ -8,21 +8,66 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="main">
-        <div class="sidebar">
-            <div class="title"></div>
-            <div class="menu"></div>
-            <div class="secondMenu"></div>
+    <div class="main grid-cols-2">
+        <div class="sidebar w-4 grid">
+            <div class="title">Dashboard</div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>History</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                </ul>
+            </div>
+            <div class="secondMenu">
+                <ul>
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
         </div>
 
         <div class="header">
-            <div class="firstRow"></div>
-            <div class="secondRow"></div>
+            <div class="firstRow">
+                <div class="searchBar">x
+                    <input type="text" placeholder="search">
+                </div>
+                <div class="userProfile">
+                    <button class="userNotifications">x</button>
+                    <button class="userPicture">x</button>
+                    <div class="userName">x</div>
+                </div>
+            </div>
+            <div class="secondRow">
+                <div class="userGreeting">
+                    <div class="userGreetingPicture"></div>
+                    <div class="greeting"></div>
+                    <div class="userGreetingName"></div>
+                </div>
+                <div class="projectButtons">
+                    <button class="newProject"></button>
+                    <button class="uploadProject"></button>
+                    <button class="shareProject"></button>
+                </div>
+            </div>
         </div>
 
         <div class="content">
             <div class="projectsTitle"></div>
-            <div class="projects"></div>
+            <div class="projects">
+                <div class="project">
+                    <div class="projectTitle"></div>
+                    <div class="projectDescription"></div>
+                    <div class="projectButtons">
+                        <button class="projectFavourite"></button>
+                        <button class="projectWatch"></button>
+                        <button class="projectShare"></button>
+                    </div>
+                </div>
+            </div>
             <div class="siteContent">
                 <div class="announcementsHeader"></div>
                 <div class="announcements">
