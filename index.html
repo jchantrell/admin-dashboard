@@ -8,103 +8,203 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="main grid-cols-2">
-        <div class="sidebar w-4 grid">
-            <div class="title">Dashboard</div>
+    <div class="main">
+        <div class="sidebar">
+            <div class="title">
+                <img src="icons/view-dashboard.png" alt="Dashboard">
+                <div>Dashboard</div>
+            </div>
             <div class="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li>
+                        <img src="icons/home.png" alt="Home">
+                        <div>Home</div>
+                    </li>
+                    <li>
+                        <img src="icons/card-account-details-outline.png" alt="Profile">
+                        <div>Profile</div>
+                    </li>
+                    <li>
+                        <img src="icons/message-reply.png" alt="Messages">
+                        <div>Messages</div>
+                    </li>
+                    <li>
+                        <img src="icons/clock-time-three.png" alt="History">
+                        <div>History</div>
+                    </li>
+                    <li>
+                        <img src="icons/note-multiple.png" alt="Tasks">
+                        <div>Tasks</div>
+                    </li>
+                    <li>
+                        <img src="icons/account-group.png" alt="Communities">
+                        <div>Communities</div>
+                    </li>
                 </ul>
             </div>
             <div class="secondMenu">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li>
+                        <img src="icons/cog.png" alt="Settings">
+                        <div>Settings</div>
+                    </li>
+                    <li>
+                        <img src="icons/help-box.png" alt="Support">
+                        <div>Support</div>
+                    </li>
+                    <li>
+                        <img src="icons/shield-check.png" alt="Privacy">
+                        <div>Privacy</div>
+                    </li>
                 </ul>
             </div>
         </div>
 
         <div class="header">
             <div class="firstRow">
-                <div class="searchBar">x
-                    <input type="text" placeholder="search">
+                <div class="searchBar">
+                    <img src="icons/magnify.png" alt="">
+                    <input type="text" placeholder="">
                 </div>
                 <div class="userProfile">
-                    <button class="userNotifications">x</button>
-                    <button class="userPicture">x</button>
-                    <div class="userName">x</div>
+                    <input type="image" src="icons/bell-ring-outline.png" class="userNotifications">
+                    <input type="image" src="icons/account-circle-outline.png" class="userPicture">
+                    <div class="userName">Morgan Oakley</div>
                 </div>
             </div>
             <div class="secondRow">
                 <div class="userGreeting">
-                    <div class="userGreetingPicture"></div>
-                    <div class="greeting"></div>
-                    <div class="userGreetingName"></div>
+                    <div class="userGreetingPicture">
+                        <img src="icons/goat.png" alt="user picture">
+                    </div>
+                    <div class="greeting">Hi there,</div>
+                    <div class="userGreetingName">Morgan Oakley (@Morgan)</div>
                 </div>
-                <div class="projectButtons">
-                    <button class="newProject"></button>
-                    <button class="uploadProject"></button>
-                    <button class="shareProject"></button>
+                <div class="userButtons">
+                    <button class="newProject">New</button>
+                    <button class="uploadProject">Upload</button>
+                    <button class="shareProject">Share</button>
                 </div>
             </div>
         </div>
 
         <div class="content">
-            <div class="projectsTitle"></div>
             <div class="projects">
-                <div class="project">
-                    <div class="projectTitle"></div>
-                    <div class="projectDescription"></div>
-                    <div class="projectButtons">
-                        <button class="projectFavourite"></button>
-                        <button class="projectWatch"></button>
-                        <button class="projectShare"></button>
+                <div class="projectsHeader">Your Projects</div>
+                <div class="projectsContainer">
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Super Cool Project</div>
+                        <div class="projectDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
                     </div>
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Less Cool Project</div>
+                        <div class="projectDescription">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Impossible App</div>
+                        <div class="projectDescription">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Easy Peasy App</div>
+                        <div class="projectDescription">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Ad Blocker</div>
+                        <div class="projectDescription">Risus pretium quam vulputate dignissim suspendisse. Dignissim diam quis enim lobortis scelerisque fermentum dui.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <div class="projectHighlight"></div>
+                        <div class="projectTitle">Money Maker</div>
+                        <div class="projectDescription">Condimentum id venenatis a condimentum vitae sapien pellentesque. Massa sed elementum tempus egestas sed sed risus pretium.</div>
+                        <div class="projectButtons">
+                            <input type="image" src="icons/cards-heart-outline.png" class="projectFavourite">
+                            <input type="image" src="icons/eye-plus-outline.png" class="projectWatch">
+                            <input type="image" src="icons/share-variant-outline.png"class="projectShare">
+                        </div>
+                    </div>                  
                 </div>
             </div>
             <div class="siteContent">
-                <div class="announcementsHeader"></div>
-                <div class="announcements">
-                    <div class="announcement">
-                        <div class="announcementTitle"></div>
-                        <div class="announcementContent"></div>
-                    </div>
-                    <div class="announcement">
-                        <div class="announcementTitle"></div>
-                        <div class="announcementContent"></div>
-                    </div>
-                    <div class="announcement">
-                        <div class="announcementTitle"></div>
-                        <div class="announcementContent"></div>
+                <div class="announcementsContainer">
+                    <div class="announcementsHeader">Announcements</div>
+                    <div class="announcements">
+                        <div class="announcement">
+                            <div class="announcementTitle">Site Maintenance</div>
+                            <div class="announcementContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</div>
+                        </div>
+                        <div class="announcementBorder"></div>
+                        <div class="announcement">
+                            <div class="announcementTitle">Community Share Day</div>
+                            <div class="announcementContent">Cursus risus at ultrices mi tempus. Velit euismod in pellentesque massa. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</div>
+                        </div>
+                        <div class="announcementBorder"></div>
+                        <div class="announcement">
+                            <div class="announcementTitle">Updated Privacy Policy</div>
+                            <div class="announcementContent">Proin libero nunc consequat interdum varius sit amet mattis vulputate. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</div>
+                        </div>
                     </div>
                 </div>
-                <div class="trendingHeader"></div>
-                <div class="currentlyTrending">
-                    <div class="trendingUser">
-                        <div class="trendingUserImage"></div>
-                        <div class="trendingUserHandle"></div>
-                        <div class="trendingUserDescription"></div>
-                    </div>
-                    <div class="trendingUser">
-                        <div class="trendingUserImage"></div>
-                        <div class="trendingUserHandle"></div>
-                        <div class="trendingUserDescription"></div>
-                    </div>
-                    <div class="trendingUser">
-                        <div class="trendingUserImage"></div>
-                        <div class="trendingUserHandle"></div>
-                        <div class="trendingUserDescription"></div>
-                    </div>
-                    <div class="trendingUser">
-                        <div class="trendingUserImage"></div>
-                        <div class="trendingUserHandle"></div>
-                        <div class="trendingUserDescription"></div>
+                <div class="trendingContainer">
+                    <div class="trendingHeader">Trending</div>
+                    <div class="trending">
+                        <div class="trendingUser">
+                            <div class="trendingUserImage">
+                                <img src="icons/goat.png" alt="goat">
+                            </div>
+                            <div class="trendingUserHandle">@tegan</div>
+                            <div class="trendingUserDescription">The G.O.A.T</div>
+                        </div>
+                        <div class="trendingUser">
+                            <div class="trendingUserImage">
+                                <img src="icons/goat.png" alt="goat">
+                            </div>
+                            <div class="trendingUserHandle">@morgan</div>
+                            <div class="trendingUserDescription">World Peace Builder</div>
+                        </div>
+                        <div class="trendingUser">
+                            <div class="trendingUserImage">
+                                <img src="icons/goat.png" alt="goat">
+                            </div>
+                            <div class="trendingUserHandle">@kendall</div>
+                            <div class="trendingUserDescription">Life Changing App</div>
+                        </div>
+                        <div class="trendingUser">
+                            <div class="trendingUserImage">
+                                <img src="icons/goat.png" alt="goat">
+                            </div>
+                            <div class="trendingUserHandle">@alex</div>
+                            <div class="trendingUserDescription">No Traffic Maker</div>
+                        </div>
                     </div>
                 </div>
             </div>
