@@ -183,7 +183,7 @@ ul {
 
 .content {
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-column: 2 / 2;
     grid-row: 2 / 2;
     background-color: #e5e5e5;
@@ -259,8 +259,6 @@ ul {
 
 .siteContent {
     grid-column: 2 / 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
 
@@ -279,8 +277,8 @@ ul {
 }
 
 .trending {
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 25px;
+    padding: 25px 0px 25px 0px;
 }
 
 .trendingContainer {
